@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#dc2626"/>
+  <!-- Water Waves Base -->
+  <path d="M60 380 C 130 350, 180 410, 256 380 C 330 350, 380 410, 452 380 L 452 452 L 60 452 Z" fill="#0284c7" opacity="0.8"/>
+  <path d="M60 410 C 140 380, 190 440, 256 410 C 330 380, 380 440, 452 410 L 452 460 L 60 460 Z" fill="#0369a1"/>
+  
+  <!-- Lifebuoy / Shield Emblem -->
+  <circle cx="256" cy="220" r="130" stroke="#ffffff" stroke-width="32" fill="none"/>
+  <circle cx="256" cy="220" r="70" stroke="#ffffff" stroke-width="16" fill="#dc2626"/>
+  
+  <!-- Red Cross in Center -->
+  <rect x="236" y="160" width="40" height="120" rx="8" fill="#ffffff"/>
+  <rect x="196" y="200" width="120" height="40" rx="8" fill="#ffffff"/>
+  
+  <!-- Rescue Straps -->
+  <rect x="246" y="80" width="20" height="40" fill="#ffffff"/>
+  <rect x="246" y="320" width="20" height="40" fill="#ffffff"/>
+  <rect x="116" y="210" width="40" height="20" fill="#ffffff"/>
+  <rect x="356" y="210" width="40" height="20" fill="#ffffff"/>
+  
+  <!-- Emergency Beacon Glow Top -->
+  <circle cx="256" cy="65" r="16" fill="#facc15"/>
+</svg>
