@@ -1,0 +1,223 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "jay",
+      "email": "",
+      "phone": "7257933502",
+      "bloodGroup": "O+",
+      "medicalNeeds": "Pregnant Woman",
+      "familyCount": 1,
+      "emergencyContact1": "9524351705",
+      "emergencyContact2": "9214790492",
+      "createdAt": "2026-08-31T09:13:59.332Z",
+      "updatedAt": "2026-08-31T09:15:05.595Z"
+    }
+  ],
+  "sosAlerts": [
+    {
+      "id": "sos-1788167659683",
+      "userId": "anon",
+      "userName": "Test Victim",
+      "phone": "9876543210",
+      "lat": 25.6,
+      "lng": 85.14,
+      "accuracy": 15,
+      "situation": "Urgent Boat Rescue Needed",
+      "peopleCount": 4,
+      "bloodGroup": "B+",
+      "specialNeeds": "None",
+      "batteryLevel": null,
+      "status": "Dispatched",
+      "smsSent": true,
+      "timestamp": "2026-08-31T09:14:19.683Z"
+    },
+    {
+      "id": "sos-init-1",
+      "userId": "usr-1",
+      "userName": "Saurabh Suman",
+      "phone": "9876543210",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "accuracy": 12,
+      "situation": "Trapped on Rooftop / Upper Floor",
+      "peopleCount": 3,
+      "bloodGroup": "O+",
+      "specialNeeds": "Diabetic / Insulin Dependent",
+      "batteryLevel": 68,
+      "status": "Dispatched",
+      "smsSent": true,
+      "timestamp": "2026-08-31T09:13:59.333Z"
+    }
+  ],
+  "shelters": [
+    {
+      "id": "sh-1",
+      "name": "Central High School Relief Camp & Safe Shelter",
+      "hindiName": "केंद्रीय उच्च विद्यालय राहत शिविर",
+      "lat": 25.5941,
+      "lng": 85.1376,
+      "address": "Bailey Road, Higher Elevation Zone, Patna",
+      "state": "Bihar",
+      "capacity": 650,
+      "occupancy": 280,
+      "elevation": "High Ground (Safe from Inundation)",
+      "phone": "0612-2233441",
+      "supplies": {
+        "food": true,
+        "water": true,
+        "medical": true,
+        "boats": true,
+        "generator": true
+      },
+      "status": "Open & Receiving Citizens"
+    },
+    {
+      "id": "sh-2",
+      "name": "Community Flood Shelter - Gandhi Maidan Complex",
+      "hindiName": "गांधी मैदान सामुदायिक बाढ़ आश्रय",
+      "lat": 25.6174,
+      "lng": 85.1432,
+      "address": "Near North Gate, Elevated Pavilion, Patna",
+      "state": "Bihar",
+      "capacity": 1200,
+      "occupancy": 540,
+      "elevation": "Elevated Concrete Platform",
+      "phone": "0612-2255678",
+      "supplies": {
+        "food": true,
+        "water": true,
+        "medical": true,
+        "boats": false,
+        "generator": true
+      },
+      "status": "Open & Receiving Citizens"
+    },
+    {
+      "id": "sh-3",
+      "name": "Guwahati College Relief & Medical Camp",
+      "hindiName": "गुवाहाटी कॉलेज राहत एवं चिकित्सा शिविर",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "address": "Bamunimaidam, Hillock Safe Zone, Guwahati",
+      "state": "Assam",
+      "capacity": 800,
+      "occupancy": 410,
+      "elevation": "High Hill Base (Zero Inundation Risk)",
+      "phone": "0361-2661245",
+      "supplies": {
+        "food": true,
+        "water": true,
+        "medical": true,
+        "boats": true,
+        "generator": true
+      },
+      "status": "Open & Receiving Citizens"
+    },
+    {
+      "id": "sh-4",
+      "name": "Kochi Municipal Indoor Stadium Safe Shelter",
+      "hindiName": "कोच्चि म्युनिसिपल इनडोर स्टेडियम आश्रय",
+      "lat": 9.9816,
+      "lng": 76.2999,
+      "address": "Kadavanthra Elevated Zone, Kochi",
+      "state": "Kerala",
+      "capacity": 1500,
+      "occupancy": 620,
+      "elevation": "2nd Floor Flood Proof Structure",
+      "phone": "0484-2321456",
+      "supplies": {
+        "food": true,
+        "water": true,
+        "medical": true,
+        "boats": true,
+        "generator": true
+      },
+      "status": "Open & Receiving Citizens"
+    },
+    {
+      "id": "sh-5",
+      "name": "Bhubaneswar High School Cyclone & Flood Center",
+      "hindiName": "भुवनेश्वर हाई स्कूल बाढ़ राहत केंद्र",
+      "lat": 20.2961,
+      "lng": 85.8245,
+      "address": "Unit 4, Capital Safe Belt, Bhubaneswar",
+      "state": "Odisha",
+      "capacity": 950,
+      "occupancy": 310,
+      "elevation": "Engineered Storm Shelter",
+      "phone": "0674-2391880",
+      "supplies": {
+        "food": true,
+        "water": true,
+        "medical": true,
+        "boats": true,
+        "generator": true
+      },
+      "status": "Open & Receiving Citizens"
+    }
+  ],
+  "waterStations": [
+    {
+      "id": "ws-1",
+      "river": "Ganga River (Patna)",
+      "hindiRiver": "गंगा नदी (पटना)",
+      "lat": 25.62,
+      "lng": 85.16,
+      "currentLevel": 49.85,
+      "dangerLevel": 48.6,
+      "warningLevel": 47.6,
+      "status": "Severe (Above Danger Mark)",
+      "trend": "Rising +0.12m/hr"
+    },
+    {
+      "id": "ws-2",
+      "river": "Brahmaputra River (Guwahati)",
+      "hindiRiver": "ब्रह्मपुत्र नदी (गुवाहाटी)",
+      "lat": 26.18,
+      "lng": 91.75,
+      "currentLevel": 50.15,
+      "dangerLevel": 49.68,
+      "warningLevel": 48.5,
+      "status": "Severe (Above Danger Mark)",
+      "trend": "Rising +0.08m/hr"
+    },
+    {
+      "id": "ws-3",
+      "river": "Periyar River (Aluva)",
+      "hindiRiver": "पेरियार नदी (अलुवा)",
+      "lat": 10.1076,
+      "lng": 76.3516,
+      "currentLevel": 6.2,
+      "dangerLevel": 7.5,
+      "warningLevel": 5.8,
+      "status": "Alert Level (Monitoring)",
+      "trend": "Stable"
+    }
+  ],
+  "hazards": [
+    {
+      "id": "haz-1",
+      "type": "Bridge Submerged & Road Cut Off",
+      "waterDepth": "Chest-Deep (> 5 feet)",
+      "description": "Vehicular movement completely halted near Bailey Road underpass.",
+      "location": "Patna Sector 4",
+      "lat": 25.602,
+      "lng": 85.128,
+      "time": "15 mins ago",
+      "status": "Dispatched to NDRF"
+    },
+    {
+      "id": "haz-2",
+      "type": "Stranded Cattle & Livestock",
+      "waterDepth": "Knee-Deep (1 to 2 feet)",
+      "description": "Over 20 cattle trapped on elevated mound requiring fodder and dry shelter.",
+      "location": "Riverbank Village Belt",
+      "lat": 25.615,
+      "lng": 85.155,
+      "time": "1 hour ago",
+      "status": "Community Volunteer Alerted"
+    }
+  ],
+  "otpStore": {}
+}
